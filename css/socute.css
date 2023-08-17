@@ -1,0 +1,18 @@
+.sentence {
+    text-align: center;
+    font-weight: 200;
+    font-size: 16px;
+    margin: 60px;
+}
+.socute {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 10px;
+
+}
+@media(max-width:500px){
+    .sentence{
+        font-size: 13px ;
+    }
+}

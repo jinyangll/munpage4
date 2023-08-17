@@ -1,0 +1,27 @@
+.gallery {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+#gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#gallery img:hover{
+    overflow: hidden;
+    transition: 0.5s;
+    transform: scale(1.2)
+}
+
+/* #gallery img:active {
+
+} */
+
+@media(max-width: 500px) {
+    #gallery img{
+        width: 180px;
+    }
+}
